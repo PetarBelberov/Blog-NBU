@@ -10,7 +10,6 @@ namespace Blog_Petar_Belberov.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            AutomaticMigrationDataLossAllowed = true;
         }
 
         protected override void Seed(Blog_Petar_Belberov.Models.BlogDBContext context)

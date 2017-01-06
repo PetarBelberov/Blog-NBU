@@ -10,7 +10,7 @@ namespace Blog_Petar_Belberov.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return RedirectToAction("List", "Article");
         }
 
     }

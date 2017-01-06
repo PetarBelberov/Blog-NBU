@@ -13,6 +13,8 @@ namespace Blog_Petar_Belberov.Models
         {
         }
 
+        public virtual IDbSet<Article> Articles { get; set; }
+
         public static BlogDBContext Create()
         {
             return new BlogDBContext();
